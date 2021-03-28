@@ -24,7 +24,11 @@ function updateText(value) {
     document.getElementById("rate").innerHTML = value;
 }
 
-function show_interest() {
-
+function reset() {
+    document.getElementById("principal").value ='';
+    document.getElementById("interest").value = 10.25;
+    document.getElementById("rate").innerHTML = "10.25";
+    document.getElementById("years").value = 1;
+    document.getElementById("result").innerHTML = '';
 }
         
